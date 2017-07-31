@@ -29,7 +29,8 @@
 
 - 可以动态改变android:pathData 中的 h203.75 值改变内部电芯图标长度
 
-    
+### 效果
+[!https://github.com/yaooort/XXStatusBar/blob/master/device-2017-07-31-141627.png]
 
 
 ### 结尾
