@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/XXStatusBar.iml" filepath="$PROJECT_DIR$/XXStatusBar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statuslibrary/statuslibrary.iml" filepath="$PROJECT_DIR$/statuslibrary/statuslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statustest/statustest.iml" filepath="$PROJECT_DIR$/statustest/statustest.iml" />
     </modules>
   </component>
 </project>
