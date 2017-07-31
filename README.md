@@ -14,6 +14,24 @@
 - 3.values下有color 色值将其拷贝到自己的工程下
 - 4.加入项目权限 ACCESS_COARSE_LOCATION ACCESS_NETWORK_STATE READ_PHONE_STATE 并加入授权管理，不然会报错
 
+
+### 代码写的比较急可优化地方还很多
+
+--SVG电量图标--
+
+```xml
+   <vector android:height="20dp" android:viewportHeight="1024.0"
+       android:viewportWidth="1024.0" android:width="20dp" xmlns:android="http://schemas.android.com/apk/res/android">
+       <path android:fillColor="@color/icon_color" android:pathData="M877.7,313.5L62.7,313.5A62.7,62.7 0,0 0,0 376.2v271.7c0,34.6 28.1,62.7 62.7,62.7 h815 a62.7,62.7 0,0 0,62.7 -62.7v-271.7a62.7,62.7 0,0 0,-62.7 -62.7zM919.5,647.8c0,23.1 -18.7,41.8 -41.8,41.8L62.7,689.6a41.8,41.8 0,0 1,-41.8 -41.8v-271.7c0,-23.1 18.7,-41.8 41.8,-41.8h815c23.1,0 41.8,18.7 41.8,41.8v271.7z"/>
+       <path android:fillColor="@color/le_low_a" android:pathData="M62.7,355.3 h203.75 c11.5,0 20.9,9.3 20.9,20.9 v271.7 c0,11.5 -9.3,20.9 -20.9,20.9 H62.7 a20.9,20.9 0,0 1,-20.9 -20.9 v-271.7 c0,-11.6 9.3,-20.9 20.9,-20.9 zM961.3,438.8 A62.7,62.7 0,0 1,1024 501.6v20.9a62.7,62.7 0,0 1,-62.7 62.7v-146.3z"/>
+   </vector>
+```
+
+- 可以动态改变android:pathData 中的 h203.75 值改变内部电芯图标长度
+
+    
+
+
 ### 结尾
 
 ___这个项目原本想做成智能更换图标颜色，后期会考虑，
